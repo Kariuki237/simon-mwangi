@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kariuki | Visual Content Creator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-md p-6">
+      <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Kariuki</h1>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="#about" class="hover:underline">About</a></li>
+            <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-100 py-20 text-center">
+      <h2 class="text-4xl font-bold mb-4">Visual Content Creator</h2>
+      <p class="text-lg max-w-xl mx-auto">I design graphics and edit videos using Canva & CapCut to bring your brand to life.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-5xl mx-auto py-16 px-4">
+      <h3 class="text-2xl font-semibold mb-4">About Me</h3>
+      <p>
+        Hi! I'm Kariuki, a digital content creator based in Thika, Kenya. I specialize in creating engaging
+        visuals for social media, businesses, and events using tools like <strong>Canva</strong> and
+        <strong>CapCut</strong>.
+      </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-white py-16 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-6">Portfolio</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <img src="logo-sample.jpg" alt="Logo Sample" class="mb-2 rounded" />
+            <p class="text-center">Logo Design</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <img src="poster-sample.jpg" alt="Poster" class="mb-2 rounded" />
+            <p class="text-center">Poster Design</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <video controls class="w-full rounded">
+              <source src="canva-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p class="text-center mt-2">Canva Video Edit</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-5xl mx-auto py-16 px-4">
+      <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+      <p>Email: <a href="mailto:simonkariukike@gmail.com" class="text-blue-500">simonkariukike@gmail.com</a></p>
+      <p>Location: Thika, Kenya</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+      <p>&copy; 2025 Kariuki. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
